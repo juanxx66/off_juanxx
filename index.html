@@ -1,29 +1,85 @@
-<html lang="pt-br">
-
+<!DOCTYPE html>
+<html lang="pt-BR">
 <head>
-    <link rel="stylesheet" href="styles.css" />
-    <title>Juanflix</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Juan Pablo - Professor de Música</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #111;
+      color: #fff;
+    }
+    header {
+      background-color: #222;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    nav a {
+      color: #1db954;
+      margin: 0 15px;
+      text-decoration: none;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+    .highlight {
+      color: #1db954;
+    }
+    footer {
+      background-color: #222;
+      text-align: center;
+      padding: 15px;
+      font-size: 0.9em;
+    }
+  </style>
 </head>
-
 <body>
 
-    <heasder>JUAN PABLO MUSIC</heasder>
+  <header>
+    <h1>Juan Pablo</h1>
+    <p class="highlight">Professor de Música • Violão • Teoria Musical • Produção</p>
+    <nav>
+      <a href="#sobre">Sobre Mim</a>
+      <a href="#aulas">Aulas</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
 
-    <section class="chamada">
-        <div class="chamada-texto">
+  <section id="sobre">
+    <h2>Sobre Mim</h2>
+    <p>Olá! Sou Juan Pablo, professor de música com mais de 10 anos de experiência em ensino de violão, teoria musical e produção sonora. Minha missão é ajudar pessoas de todas as idades a descobrirem o poder da música em suas vidas.</p>
+  </section>
 
-            <h1>Filipe Martins - Experience Abertura</h1>
-            <p>#felipe-martins</p>
-        </div>
+  <section id="aulas">
+    <h2>Aulas e Serviços</h2>
+    <ul>
+      <li>🎸 Aulas de violão para iniciantes e intermediários</li>
+      <li>📚 Teoria musical e leitura de partituras</li>
+      <li>🎧 Produção musical com softwares como FL Studio e Ableton Live</li>
+      <li>🧑‍🏫 Aulas presenciais e online via Zoom</li>
+    </ul>
+  </section>
 
-        <div>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/ziRgBoLcpdE?si=OYYL_4UIpYyiDRre"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;picture-in-picture; web-share"
-                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </div>
-    </section>
+  <section id="contato">
+    <h2>Contato</h2>
+    <p>Quer marcar uma aula ou tirar dúvidas? Entre em contato:</p>
+    <ul>
+      <li>Email: <a href="mailto:juanpablo@email.com" class="highlight">juanpablo@email.com</a></li>
+      <li>Instagram: <a href="https://instagram.com/seuusuario" target="_blank" class="highlight">@seuusuario</a></li>
+    </ul>
+  </section>
 
+  <footer>
+    <p>&copy; 2025 Juan Pablo | Todos os direitos reservados</p>
+  </footer>
 
-
+</body>
 </html>
