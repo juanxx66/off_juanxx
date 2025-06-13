@@ -1,0 +1,51 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-body);
+}
+
+/* Corpo da página */
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
+h3 {
+    margin-top: 25px;
+}
+
+p {
+    margin-top: 20px;
+}
+
+img {
+    max-width: 90%;
+}
+
+/* Cabeçalho */
+header {
+    background: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-family: var(--font-titulo);
+    margin-bottom: 10px;
+}
+nav ul {
+    list-style-type: style none;
+    padding: 10px;
+
+}
+ nav ul li {
+    display:inline;
+    margin: 0 15px;
+ }
+ nav ul li a {
+color:white;
+ }
